@@ -1,0 +1,6 @@
+[submodule "path/to/submodule"]
+	path = path/to/submodule
+	url = https://github.com/HossamElshahawy/Write-it-on-a-greeting-card
+[submodule "main"]
+	path = main
+	url = https://github.com/HossamElshahawy/Write-it-on-a-greeting-card

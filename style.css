@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/saudi-arabia-flag_98063-15.jpg'); /* Replace with the path to your background image */
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+#outputImage {
+    max-width: 100%;
+    height: auto;
+}

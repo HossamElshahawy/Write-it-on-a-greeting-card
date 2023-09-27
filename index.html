@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Name to Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Add Your Name to the Image</h1>
+    <form>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name" required>
+    </form>
+    <div class="result">
+        <h2>Result:</h2>
+        <img id="outputImage" src="images/بطاقات-تهنئة-العيد-الوطني-السعودي-92.jpg" alt="Result Image">
+        <a id="downloadLink" style="display: none;" download="result-image.jpg">
+            <button id="downloadButton">Download Image</button>
+        </a>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
